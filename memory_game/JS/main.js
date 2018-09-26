@@ -42,9 +42,9 @@ console.log("User flipped" + ' ' + cards[cardId].rank);
 
 console.log(cards[cardId].cardImage);
 console.log(cards[cardId].suit);
-
+checkForMatch();
 };
 
 flipCard(0);
 flipCard(2);
-checkForMatch();
+
